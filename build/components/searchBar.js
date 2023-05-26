@@ -20,7 +20,7 @@ function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefine
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 _reactGeocode.default.setApiKey("AIzaSyAsuW5ZfYvaAbzy_G9SfJFTf1wMAN5Mqpg");
 function SearchBar() {
-  var _useState = (0, _react.useState)("Dhaka"),
+  var _useState = (0, _react.useState)(""),
     _useState2 = _slicedToArray(_useState, 2),
     searchValue = _useState2[0],
     setSearchValue = _useState2[1];

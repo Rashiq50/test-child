@@ -7,7 +7,7 @@ import Geocode from "react-geocode";
 Geocode.setApiKey("AIzaSyAsuW5ZfYvaAbzy_G9SfJFTf1wMAN5Mqpg");
 
 function SearchBar() {
-  const [searchValue, setSearchValue] = useState<string>("Dhaka");
+  const [searchValue, setSearchValue] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [locationLoading, setLocationLoading] = useState<boolean>(false);
   const [searched, setSearched] = useState<boolean>(false);
