@@ -4,11 +4,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = exports.Index = void 0;
-var _FindContractor = _interopRequireDefault(require("../components/FindContractor"));
+var _addressNeeded = _interopRequireDefault(require("../components/addressNeeded"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var meta = {
-  title: "FindContractor",
-  component: _FindContractor.default
+  title: "AddressNeeded",
+  component: _addressNeeded.default
 };
 var _default = meta;
 exports.default = _default;

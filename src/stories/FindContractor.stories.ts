@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import FindContractor from "../components/FondContractor";
+import FindContractor from "../components/FindContractor";
 
 const meta: Meta<typeof FindContractor> = {
   title: "FindContractor",
