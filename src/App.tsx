@@ -1,4 +1,3 @@
-import React from "react";
 import { MainProps } from "./utils/types";
 import MainIndex from "./components/mainIndex";
 

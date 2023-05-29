@@ -1,15 +1,15 @@
 import { Box, Grid, Link, TextField, Typography } from "@mui/material";
-import * as React from "react";
 import BasicSelect from "./common/basicSelect";
 import { LoadingButton } from "@mui/lab";
 import LoaderComponent from "./common/loader";
+import { useState } from "react";
 
 const FindContractor = () => {
-  const [selectedState, setSelectedState] = React.useState("none");
-  const [selectedCounty, setSelectedCounty] = React.useState("none");
-  const [contractorName, setContractorName] = React.useState("");
-  const [loading, setLoading] = React.useState<boolean>(false);
-  const [showData, setShowData] = React.useState([]);
+  const [selectedState, setSelectedState] = useState("none");
+  const [selectedCounty, setSelectedCounty] = useState("none");
+  const [contractorName, setContractorName] = useState("");
+  const [loading, setLoading] = useState<boolean>(false);
+  const [showData, setShowData] = useState([]);
   const states = [
     { name: "California", value: "CA" },
     { name: "Florida", value: "FL" },
