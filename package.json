@@ -1,6 +1,6 @@
 {
   "name": "search-child",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": true,
   "module": "build/index.js",
   "main": "build/index.js",
